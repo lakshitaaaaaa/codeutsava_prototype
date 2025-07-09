@@ -1,0 +1,137 @@
+footer{
+  margin-top: 300px;
+  background: linear-gradient(rgb(4, 35, 46),rgb(2, 37, 61));
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: -400px;
+  padding: 50px 0 30px;
+  border-top-left-radius: 80px;
+  border-top-right-radius: 80px;
+  font-size: 13px;
+  line-height: 20px;
+  border-top-style: outset;
+}
+
+/* .row{
+  width: 85% ;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.col{
+  flex-basis:25% ;
+  padding: 10px;
+}
+
+.logo{
+  width: 80px;
+  margin-bottom: 30px;
+} */
+
+.whole{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  padding: 30px;
+}
+
+.c1{
+  display: flex;
+  padding-top: 0;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.c1 img{
+  padding-top: 10px;
+  width: 360px;
+  height: 110px;
+}
+
+.links ul{
+  flex: 1;
+  display: flex;
+}
+
+.links ul li{
+  text-decoration: none;
+  margin: 0 15px;
+  list-style: none;
+}
+
+.social{
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: flex-end;
+}
+
+.social p{
+  font-size: 20px;
+  text-align: right;
+  font-family: "Quicksand",sans-serif;
+  color: grey;
+}
+
+.c2{
+  display: flex;
+  padding: 50px;
+ 
+  justify-content: center;
+  align-items: center;
+}
+
+.c2 img{
+  width: 150px;
+  height: 150px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.nitrr{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  font-size: 20px;
+  margin-left: 50px;
+  background-color: rgba(255, 255, 255, 0.349);
+  padding-left: 15px;
+  border-radius: 5px;
+}
+
+.lists{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+.lists a{
+  text-decoration: none;
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: rgba(255, 255, 255, 0.783);
+  margin-bottom: 20px;
+  
+}
+
+.c3{
+  text-align: center;
+  padding-bottom: 0;
+  padding-top: 30px;
+
+}
+
+.c3 a{
+  text-decoration: none;
+  font-size: 24px;
+  font-family: "Titan One",sans-serif;
+  margin-bottom: 0;
+  color: rgb(191, 248, 94);
+}
